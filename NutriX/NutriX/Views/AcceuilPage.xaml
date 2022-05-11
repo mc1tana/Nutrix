@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NutriX.Views.AcceuilPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="CadetBlue" VerticalOptions="CenterAndExpand" CornerRadius="25" Margin="30,0" >
+                <Label Text="Bienvenu Chez Nutrix !"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold" TextColor="White" FontSize="25"/>
+            </Frame>
+            <Entry x:Name="CodeProd" Text="" Placeholder="Saisisez Le Code Produit "/>
+            <Button Text="Valider" Clicked="Button_Clicked" CornerRadius="10" Margin="50,0" TextColor="White" FontSize="18" FontAttributes="Bold" BackgroundColor="CornflowerBlue"/>
+
+            <Button Text="Scan" Clicked="Scan" CornerRadius="10" Margin="50,20" BackgroundColor="Sienna" TextColor="White" FontSize="18" FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
